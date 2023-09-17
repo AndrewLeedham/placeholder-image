@@ -2,6 +2,7 @@
   "name": "placeholder-image-data-url",
   "description": "Create dynamic placeholder images with data urls.",
   "version": "0.0.1",
+  "repository": "https://github.com/AndrewLeedham/placeholder-image-data-url",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
