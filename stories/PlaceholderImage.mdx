@@ -5,7 +5,7 @@ import * as PlaceholderImageStories from './PlaceholderImage.stories';
 
 # Placeholder Image
 
-A library for creating placeholder images as [Data URLs](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). It provides a single function that takes some options about what the image should look like, and returns a the Data URL for use in HTML or CSS (via JavaScript).
+A library for creating placeholder images as [Data URLs](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). It provides a single function that takes some options about what the image should look like and returns the Data URL for use in HTML or CSS (via JavaScript).
 
 ## Installation
 
@@ -22,11 +22,11 @@ bun add placeholder-image
 ## Usage
 
 The library can be used to generate Data URLs in JavaScript, meaning it will
-need to be ran in a JS framework that renders to HTML or a CSS-in-JS or JS CSS
-preprocessor solution. For example in React you would use it like this:
+need to be run in a JS framework that renders to HTML or a CSS-in-JS or JS CSS
+preprocessor solution. For example, in React you would use it like this:
 
 ```jsx
-import { placeholderImage } from 'placeholder-image';
+import { placeholderImage } from 'placeholder-image-data-url';
 
 function Image(props) {
   return <img {...props} />;

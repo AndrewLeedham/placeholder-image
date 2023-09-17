@@ -1,5 +1,6 @@
 {
-  "name": "placeholder-image",
+  "name": "placeholder-image-data-url",
+  "description": "Create dynamic placeholder images with data urls.",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
