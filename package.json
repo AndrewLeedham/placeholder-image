@@ -1,0 +1,43 @@
+{
+  "name": "placeholder-image",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.4.2",
+    "@storybook/addon-interactions": "^7.4.2",
+    "@storybook/addon-links": "^7.4.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.2",
+    "@storybook/react": "^7.4.2",
+    "@storybook/react-vite": "^7.4.2",
+    "@storybook/testing-library": "^0.2.1",
+    "bun-types": "^1.0.2",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.4.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "polished": "^4.2.2"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "format": "bunx prettier ./src ./stories ./.storybook --write"
+  },
+  "files": [
+    "dist"
+  ]
+}
