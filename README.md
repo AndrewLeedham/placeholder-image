@@ -1,4 +1,4 @@
-# placeholder-image-data-url
+# placeholder-image-data-url-svg
 
 A library for creating placeholder images as [Data URLs](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). It provides a single function that takes some options about what the image should look like and returns the Data URL for use in HTML or CSS (via JavaScript).
 
@@ -21,7 +21,7 @@ need to be run in a JS framework that renders to HTML or a CSS-in-JS or JS CSS
 preprocessor solution. For example, in React you would use it like this:
 
 ```jsx
-import { placeholderImage } from 'placeholder-image-data-url';
+import { placeholderImage } from 'placeholder-image-data-url-svg';
 
 function Image(props) {
   return <img {...props} />;
